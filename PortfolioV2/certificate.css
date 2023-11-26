@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&family=Kanit:wght@300&family=Kenia&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color: #4D1212;
+  overflow-x: hidden;
+}
+body img
+{
+  box-shadow: 5px 5px 10px #000
+}
+.certificates-title
+{
+  color: #fff;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.certificates-title h1
+{
+  font-size: 300px;
+}
+.competition
+{
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.content-title
+{
+  color: #4D1212;
+  margin: 1em 0;
+  margin-left: 2em;
+  font-size: 80px;
+  background-color: #fff;
+  width: 600px;
+  text-align: center;
+}
+.competition-content
+{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px 10px;
+  /* border: 1px solid green; */
+}
+.competition-certificate1
+{
+  width: 100%;
+  /* border: 1px solid blue; */
+  padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.competiton-certificate1-image
+{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.competiton-certificate1-image img
+{
+  height: 100%;
+  object-fit: cover;
+}
+.competition-paragraph
+{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.competition-certificate2
+{
+  width: 100%;
+  height: 100%;
+  /* border:1px solid blue; */
+}
+.competition-certificate2-image
+
+{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.competition-certificate2-image img
+{
+  width: 650px;
+  object-fit: cover;
+}
+.award-content
+{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px 10px;
+  /* border: 1px solid green; */
+}
+.award-certificate1
+{
+  /* border: 1px solid burlywood; */
+  padding: 10px;
+}
+.award-certificate-image
+{
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.award-certificate-image img
+{
+  width: 650px;
+  object-fit: cover;
+}
+.award-paragraph
+{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+.learning
+{
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+.learning-content
+{
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+}
+.learning-image
+{
+  /* border: 1px solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.learning-image img
+{
+  width: 650px;
+  object-fit: cover;
+}
+.learning-image-diff
+{
+  /* border: 1px solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.learning-image-diff img
+{
+  height: 502px;
+}
+.learning-text
+{
+  text-align: center;
+  color: #fff;
+}
+.competition-paragraph{
+  font-family: 'Kanit', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.award-paragraph
+{
+  font-family: 'Kanit', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.learning-paragraph
+{
+  font-family: 'Kanit', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.button
+{
+  margin: 1rem;
+}
+.button a
+{
+  color: #fff;
+  text-decoration: none;
+  margin: 1em;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.button a:hover
+{
+  background-color: #fff;
+  color: #4D1212;
+  border-radius: 10px;
+  padding: 5px;
+  transition: .1s;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button a {
+      margin: 0.5em;
+  }
+
+  .certificates-title {
+      font-size: 2rem;
+      margin-top: 50px;
+  }
+
+  .certificates-title h1 {
+      font-size: 100px;
+  }
+
+  .content-title {
+      font-size: 40px;
+      width: 100%;
+  }
+
+  .competition-paragraph,
+  .award-paragraph,
+  .learning-paragraph {
+      font-size: 16px;
+  }
+
+  .competition-certificate1-image img,
+  .competition-certificate2-image img,
+  .award-certificate-image img,
+  .learning-image img,
+  .learning-image-diff img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+  }
+}

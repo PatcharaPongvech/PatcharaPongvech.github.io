@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&family=Kanit:wght@300&family=Kenia&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color: #4D1212;
+  overflow-x: hidden;
+}
+
+.button
+{
+  margin: 1rem;
+}
+.button a
+{
+  color: #fff;
+  text-decoration: none;
+  margin: 1em;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.button a:hover
+{
+  background-color: #fff;
+  color: #4D1212;
+  border-radius: 10px;
+  padding: 5px;
+  transition: .1s;
+}
+.about-title
+{
+  color: #fff;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.about-title h1
+{
+  font-size: 300px;
+}
+.introduce
+{
+  /* border: 1px solid green; */
+  width: 1000px;
+  margin-right: 100px;
+}
+#firstname
+{
+  color: #fff;
+  font-size: 150px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.lastname
+{
+  color: #fff;
+  font-size: 100px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.introduce p
+{
+  color: #F0B27A;
+  font-size: 50px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.image-me
+{
+  /* border: 1px solid green; */
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about-content
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-me img
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.line
+{
+  background-color: #fff;
+  width: 100%;
+  height: 5px;
+  margin: 20px 0px;
+}
+.content-title
+{
+  width: 100%;
+}
+.content-title h1
+{
+  margin-left: 5rem;
+  color: #fff;
+  font-size: 100px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.skills-image
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-image img
+{
+  margin: 20px 50px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.education
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+}
+.education p
+{
+  color: #F0B27A;
+  margin: 10px 30px;
+}
+.content
+{
+  color: #fff;
+  font-family: 'Kenia', sans-serif;
+
+  font-size: 50px;
+}
+.fb
+{
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button a {
+      margin: 0.5em;
+  }
+
+  .about-title {
+      font-size: 2rem;
+      margin-top: 20px;
+  }
+
+  .about-title h1 {
+      font-size: 80px;
+  }
+
+  .introduce {
+      margin-right: 0;
+  }
+
+  #firstname {
+      font-size: 30px;
+  }
+
+  .lastname {
+      font-size: 20px;
+  }
+
+  .introduce p {
+      font-size: 14px;
+  }
+
+  .image-me {
+      height: 200px;
+  }
+
+  .line {
+      margin: 10px 0;
+  }
+
+  .content-title h1 {
+      font-size: 30px;
+  }
+
+  .skills-image img {
+      margin: 5px;
+      width: 50px;
+      height: 50px;
+  }
+
+  .education {
+      font-size: 16px;
+  }
+}

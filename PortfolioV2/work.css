@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&family=Kanit:wght@300&family=Kenia&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  background-color: #4D1212;
+  overflow-x: hidden;
+}
+.button
+{
+  margin: 1rem;
+}
+.button a
+{
+  color: #fff;
+  text-decoration: none;
+  margin: 1em;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.button a:hover
+{
+  background-color: #fff;
+  color: #4D1212;
+  border-radius: 10px;
+  padding: 5px;
+  transition: .1s;
+}
+.works-title
+{
+  color: #fff;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+.works-title h1
+{
+  font-size: 300px;
+}
+.work
+{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-pic
+{
+    /* border: 1px solid red; */
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin: 1rem 3rem;
+}
+.work-pic img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.work-paragraph
+{
+    font-family: 'Kanit', sans-serif;
+    /* border: 1px solid red; */
+    width: 800px;
+    color: #fff;
+    margin: 5px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.big
+{
+    color: #F0B27A ;
+}
+.go
+{
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 10px;
+    transition: .1s ease;
+}
+.go:hover
+{
+    background-color: #fff;
+    color: #4D1212;
+    transition: .2s;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .button {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button a {
+      margin: 0.5em;
+  }
+
+  .works-title {
+      font-size: 2rem;
+      margin-top: 50px;
+  }
+
+  .works-title h1 {
+      font-size: 100px;
+  }
+
+  .work-pic {
+      height: 200px;
+  }
+
+  .work-paragraph {
+      font-size: 16px;
+  }
+}

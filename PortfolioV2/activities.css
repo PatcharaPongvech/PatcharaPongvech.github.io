@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+TAS+Beginner:wght@500&family=Kanit:wght@300&family=Kenia&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+  background-color: #4D1212;
+  overflow-x: hidden;
+}
+
+.button {
+  display: flex;
+  margin: 1rem;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+  margin: 1em;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+  transition: .1s ease;
+}
+.button a:hover{
+  color: #4D1212;
+  background-color: #fff;
+  transition: .1s;
+}
+
+.activities-title {
+  color: #fff;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.activities-title h1 {
+  font-size: 300px;
+}
+
+.content-title {
+  color: #4D1212;
+  margin: 1em 0;
+  margin-left: 1em;
+  font-size: 80px;
+  background-color: #fff;
+  width: 600px;
+  text-align: center;
+}
+
+.activities-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.activities-image {
+  max-width: 60%;
+}
+
+.activities-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.activities-paragraph {
+  font-family: 'Kanit', sans-serif;
+  color: #fff;
+  margin: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.big
+{
+  color: rgb(255, 159, 124);
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .button a {
+      margin: 0.5em;
+  }
+
+  .activities-title {
+      font-size: 2rem;
+      margin-top: 50px;
+  }
+
+  .activities-title h1 {
+      font-size: 100px;
+  }
+
+  .content-title {
+      font-size: 40px;
+      width: 100%;
+  }
+
+  .activities-content {
+      margin: 1em;
+  }
+  .activities-paragraph
+{
+    font-family: 'Kanit', sans-serif;
+    /* border: 1px solid green; */
+    color: #fff;
+    margin: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+}
