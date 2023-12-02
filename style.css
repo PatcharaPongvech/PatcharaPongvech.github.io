@@ -502,25 +502,119 @@
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
+/***********Ipad Air***********/
+@media only screen and (max-width: 1180px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .background-img {
-        display: none;
+    .navbar{
+        position: initial;
+        width: 100%;
+        overflow: hidden;
+        height: 100px;
+    }
+    .nav-left{
+        margin: 5px 1rem;
+    }
+    .name{
+        font-size: 3rem;
+    }
+    .nav-right{
+        margin: 5px 1rem;
+    }
+    .nav-right ul li a{
+        font-size: 1.5rem;
     }
 
-    .nav-left,
-    .nav-right {
-        margin: 10px 0;
+
+    #portfolio{
+        width: 100%;
+    }
+    
+    #work{
+        width: 100%;
+        /* border: 1px solid red; */
+        overflow: hidden;
+        position: relative;
+    }
+    .work-text{
+        /* border: 1px solid red; */
+        width: 450px;
+        height: auto;
+        position: absolute;
+        left: 5%;
+    }
+    .work-text h1 {
+       font-size: 3rem;
+    }
+    .work-text p {
+        font-size: 1.5rem;
     }
 
-    .nav-right ul li {
-        margin: 5px 0;
+    .work-project-image{
+        width: 450px;
+        height: 300px;
     }
-    #work,#activities,#certificates{
-        display: none;
+    #activities{
+        overflow: hidden;
+        position: relative;
+        /* border: 1px solid blue; */
+    }
+    .activities-right{
+        position: absolute;
+        left: 50%;
+        /* border: 1px solid red; */
+        width: 500px;
+    }
+    .activities-right h1 {
+        font-size: 3rem;
+        margin-bottom: 2px;
+    }
+    .activities-right p {
+        font-size: 1.5rem;
+    }
+    .activities-image01 {
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        left: 10%;
+    }
+    .activities-image02 {
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        left: 20%;
+    }
+    .activities-image03 {
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        left: 20%;
+        top: 70%;
+    }
+    
+    #certificates {
+        /* border: 1px solid green; */
+        position: relative;
+    }
+    .certificate-left{
+        position: absolute;
+        left: 5%;
+        top: 35%;
+    }
+    .certificate-left h1{
+        font-size: 3rem;
+    }
+    .certificate-left p {
+        font-size: 1.5rem;
+    }
+    .certificate-slide {
+        position: absolute;
+        left: 50%;
+        top: 25%;
+        width: 550px;
+        height: 400px;
     }
 }
